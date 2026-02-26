@@ -6,6 +6,7 @@ public class GatherInput : MonoBehaviour
     private Controls myControls;
 
     public float valueX;
+    public bool jumpInput;
 
     private void Awake()
     {
@@ -26,11 +27,19 @@ public class GatherInput : MonoBehaviour
 
     private void OnEnable()
     {
+        myControls.Player.Jump.performed += OnJump;
         myControls.Player.Enable();
+
     }
 
     private void OnDisable()
     {
+        myControls.Player.Jump.performed -= OnJump;
         myControls.Player.Disable();
+    }
+
+    private void OnJump(InputAction.CallbackContext context)
+    {
+        jumpInput = true;
     }
 }
