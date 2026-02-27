@@ -5,6 +5,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance; 
     private AudioSource sfxSource;
 
+
     private void Awake()
     {
         
@@ -16,7 +17,8 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            DontDestroyOnLoad(Instance);
+            
         }
     }
 
