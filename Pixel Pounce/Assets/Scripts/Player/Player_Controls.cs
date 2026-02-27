@@ -9,6 +9,9 @@ public class Player_Controls : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
 
+    //private bool doubleJump = true;
+    public int additionalJumps = 2;
+    [SerializeField]private int  resetJumpNumber;
 
     private float rayLength = 0.05f;
     public LayerMask groundLayer;
@@ -20,7 +23,9 @@ public class Player_Controls : MonoBehaviour
     {
         gI = GetComponent<GatherInput>();
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();    
+        animator = GetComponent<Animator>();
+
+        resetJumpNumber = additionalJumps;
     }
 
     private void Update()
@@ -51,10 +56,17 @@ public class Player_Controls : MonoBehaviour
             if(grounded)
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+                //doubleJump = true;
+            }
+            else if (additionalJumps > 0)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+                //doubleJump = false;
+                additionalJumps -= 1;
             }
 
-           
-               gI.jumpInput = false;
+
+                gI.jumpInput = false;
            
 
                 
@@ -83,6 +95,9 @@ public class Player_Controls : MonoBehaviour
         if (groundhit)
         {
             grounded = true;
+            //doubleJump = false;
+
+            additionalJumps = resetJumpNumber;
         }
         else
         {
