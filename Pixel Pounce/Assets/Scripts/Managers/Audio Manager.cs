@@ -7,7 +7,7 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
-        // Singleton logic: ensures only one manager exists
+        
         if (Instance == null)
         {
             Instance = this;
