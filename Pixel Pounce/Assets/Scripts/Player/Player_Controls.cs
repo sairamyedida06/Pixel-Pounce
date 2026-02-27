@@ -7,7 +7,7 @@ public class Player_Controls : MonoBehaviour
 
     private GatherInput gI;
     private Rigidbody2D rb;
-    private Animator animator;
+    public Animator animator;
 
     //private bool doubleJump = true;
     public int additionalJumps = 2;

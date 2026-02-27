@@ -6,12 +6,15 @@ public class Playerstats : MonoBehaviour
     [SerializeField] float maxHealth = 100;
     [SerializeField] float currentHealth;
 
-    public bool canTakeDamage;
+    public bool canTakeDamage = true;
 
+    private Animator animator;
     private void Start()
     {
+        animator = GetComponentInParent<Animator>();
+
         currentHealth = maxHealth;
-        TakeDamage(100);
+        
         Debug.Log(currentHealth);
     }
 
@@ -20,6 +23,8 @@ public class Playerstats : MonoBehaviour
         if (canTakeDamage)
         {
             currentHealth -= damage;
+
+            animator.SetBool("Damaged", true);
 
             if (currentHealth <= 0)
             {
@@ -34,15 +39,20 @@ public class Playerstats : MonoBehaviour
     private IEnumerator PreventDamage()
     {
         canTakeDamage = false;
+
+        Debug.Log("couroutine");
+
         yield return new WaitForSeconds(0.15f);
+
 
         if (currentHealth > 0)
         {
             canTakeDamage = true;
+            animator.SetBool("Damaged", false);
         }
         else
         {
-
+            animator.SetBool("Death",true);
         }
     }
 }

@@ -175,12 +175,12 @@ TextureImporter:
       name: Cat_Death_100x100_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 33
-        width: 39
-        height: 26
+        x: 38
+        y: 34
+        width: 37
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: Cat_Death_100x100_1
       rect:
         serializedVersion: 2
-        x: 137
-        y: 32
-        width: 39
-        height: 26
+        x: 138
+        y: 33
+        width: 37
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: Cat_Death_100x100_2
       rect:
         serializedVersion: 2
-        x: 237
-        y: 32
-        width: 39
-        height: 25
+        x: 238
+        y: 33
+        width: 37
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +241,12 @@ TextureImporter:
       name: Cat_Death_100x100_3
       rect:
         serializedVersion: 2
-        x: 337
-        y: 32
-        width: 39
-        height: 23
+        x: 338
+        y: 33
+        width: 37
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -263,12 +263,12 @@ TextureImporter:
       name: Cat_Death_100x100_4
       rect:
         serializedVersion: 2
-        x: 437
-        y: 32
-        width: 39
-        height: 20
+        x: 438
+        y: 33
+        width: 37
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -285,12 +285,12 @@ TextureImporter:
       name: Cat_Death_100x100_5
       rect:
         serializedVersion: 2
-        x: 537
-        y: 32
-        width: 39
-        height: 19
+        x: 538
+        y: 33
+        width: 37
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -307,12 +307,12 @@ TextureImporter:
       name: Cat_Death_100x100_6
       rect:
         serializedVersion: 2
-        x: 637
-        y: 32
-        width: 39
-        height: 19
+        x: 638
+        y: 33
+        width: 37
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -329,12 +329,12 @@ TextureImporter:
       name: Cat_Death_100x100_7
       rect:
         serializedVersion: 2
-        x: 737
-        y: 32
-        width: 39
-        height: 19
+        x: 738
+        y: 33
+        width: 37
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -351,12 +351,12 @@ TextureImporter:
       name: Cat_Death_100x100_8
       rect:
         serializedVersion: 2
-        x: 837
-        y: 32
-        width: 39
-        height: 19
+        x: 838
+        y: 33
+        width: 37
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -373,12 +373,12 @@ TextureImporter:
       name: Cat_Death_100x100_9
       rect:
         serializedVersion: 2
-        x: 937
-        y: 32
-        width: 39
-        height: 19
+        x: 938
+        y: 33
+        width: 37
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -395,12 +395,12 @@ TextureImporter:
       name: Cat_Death_100x100_10
       rect:
         serializedVersion: 2
-        x: 1037
-        y: 32
-        width: 39
-        height: 19
+        x: 1038
+        y: 33
+        width: 37
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -417,12 +417,12 @@ TextureImporter:
       name: Cat_Death_100x100_11
       rect:
         serializedVersion: 2
-        x: 1137
-        y: 32
-        width: 39
-        height: 19
+        x: 1138
+        y: 33
+        width: 37
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -439,7 +439,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 98ee17c8ae5d003498bb73a224cc0cc8
     internalID: 0
     vertices: []
     indices: 
@@ -447,7 +447,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Cat_Death_100x100_0: -4920783023705364527
       Cat_Death_100x100_1: 4170511546421840021

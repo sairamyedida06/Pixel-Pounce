@@ -14,9 +14,9 @@ TagManager:
   - Player
   - Ground
   - Ignore
-  - 
-  - 
-  - 
+  - player stats
+  - Enemy attack
+  - enemy
   - 
   - 
   - 
@@ -38,20 +38,23 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: background
     uniqueID: 2212535425
     locked: 0
   - name: Middle ground
     uniqueID: 1550565591
     locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
   - name: Ground
     uniqueID: 4206248027
     locked: 0
   - name: Player
     uniqueID: 2333184331
+    locked: 0
+  - name: ForeGround
+    uniqueID: 1768756947
     locked: 0
   m_RenderingLayers:
   - Default
